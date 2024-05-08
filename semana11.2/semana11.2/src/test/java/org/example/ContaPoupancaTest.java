@@ -21,10 +21,17 @@ class ContaPoupancaTest {
     }
 
     @Test
-    void teste_saque_conta_pequena(){
+    void teste_saque_conta_poupanca(){
         ContaPoupanca contaPoupancaMock = new ContaPoupanca();
         contaPoupancaMock.sacar(50);
         assertEquals(50, contaPoupancaMock.getSaldo(50));
+    }
+
+    @Test
+    void buscar_saldo_conta_poupanca(){
+        ContaPoupanca contaPoupancaMock = new ContaPoupanca();
+        contaPoupancaMock.getSaldo(50);
+        assertEquals(50,contaPoupancaMock.getSaldo(50));
     }
 
 }
