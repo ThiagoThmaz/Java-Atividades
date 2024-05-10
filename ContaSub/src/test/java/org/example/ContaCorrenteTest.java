@@ -8,7 +8,7 @@ class ContaCorrenteTest {
     void teste_depositar_conta_corrente() {
         ContaCorrente contaCorrenteMock = new ContaCorrente();
         contaCorrenteMock.depositar(50);
-        Assertions.assertEquals(50, contaCorrenteMock.getSaldo(0.01));
+        Assertions.assertEquals(50, contaCorrenteMock.getSaldo(50));
 
     }
 
