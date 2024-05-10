@@ -21,4 +21,14 @@ public class Hexagono extends MiniPoligonos {
         return "";
     }
 
+    public double getL6() {
+        return l6;
+    }
+    public double getL5() {
+        return l5;
+    }
+
+    public double getL4() {
+        return l4;
+    }
 }

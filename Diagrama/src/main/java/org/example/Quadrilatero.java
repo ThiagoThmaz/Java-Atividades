@@ -17,4 +17,8 @@ public class Quadrilatero extends MiniPoligonos {
     public String getTipo() {
         return "";
     }
+
+    public double getL4() {
+        return l4;
+    }
 }

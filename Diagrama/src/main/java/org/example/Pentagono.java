@@ -18,4 +18,13 @@ public class Pentagono extends MiniPoligonos {
     public String getTipo() {
         return "";
     }
+
+    public double getL5() {
+        return l5;
+    }
+
+    public double getL4() {
+        return l4;
+    }
+
 }
