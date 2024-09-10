@@ -10,8 +10,8 @@ import java.util.List;
 public class Main {
 
     public static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
-    public static final String USER = "rm557992";
-    public static final String PASS = "240504";
+    public static final String USER = ""; // nome
+    public static final String PASS = ""; // senha
 
     public static void main(String[] args) throws SQLException {
 
